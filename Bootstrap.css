@@ -1,0 +1,90 @@
+body{
+    overflow-x: hidden;
+    color: #616771;
+}
+
+.navbar-brand img{
+    height: 4rem;
+}
+
+.navbar{
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 0.5rem 0.5rem rgb(0, 0, 0, .1);
+    z-index: 1;    
+}
+
+#carouselExampleControls{
+    box-shadow: 0 1rem 0.5rem rgb(0, 0, 0, .1);
+}
+
+.nav-link{
+    color: #5b5555;
+}
+
+.nav-link:hover,
+.dropdown-item:hover{
+    color: #4981b3!important;
+}
+
+.nav-item{
+    padding: 0.5rem;
+}
+
+.dropdown-menu{
+    display: none;
+    margin-top: 0px!important;
+    z-index: 1;
+}
+
+ul li:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-item{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #383838;
+    padding: 1rem 2rem 3rem;    
+}
+
+footer a, footer p{
+    color: white;
+    text-decoration: none;
+}
+
+footer li{
+    list-style: none;    
+}
+
+
+ul.social a{
+    margin: 0 auto;
+    text-decoration: none;  
+    list-style-type: none;
+
+}
+
+ul.social{
+    display: flex;
+    max-width: 16rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.col-md-6 h1 a{
+    text-decoration: none;
+}
+
+ul.social li{
+    margin: 0 auto;
+}
+
+.socket{
+    background-color: #222222;
+    border-top: 0.1rem solid burlywood;
+}
